@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+* p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color: #0E0E18;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+
+.logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: white;
+}
+.logo p{
+    font-size: 13px;
+    width: 157px;
+    height: 26px;
+}
+
+.contact{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: white;
+}
+
+.contac_text p:nth-child(1){
+    font-size: 12px;
+    color: #414157;
+    width: 109px;
+    height: 12px;
+}
+.contac_text p:nth-child(2){
+    font-size: 14px;
+    width: 118px;
+    height: 14px;
+    color: #FFFFFF;
+}
+
+main{
+    background-image: url(img/bg6\ 1\ \(1\).png);
+    width: 100%;
+    height: 499px;
+    display: flex;
+    flex-flow: column;
+    padding: 10px 100px;
+    gap: 30px;
+}
+.date p{
+    background-color: gray;
+    width: 168px;
+    height: 34px;
+    font-size: 24px;
+    padding: 3px;
+    font-weight:300;
+}
+
+.data {
+    display: flex;
+    gap: 5px;
+    width: 90px;
+    height: 26px;
+    background: none;
+    gap: 15px;
+}
+.data p{
+    color: #414157;
+    font-size:24px;
+}
+.data img{
+    width: 100%;
+}
+
+main button{
+    width: 94px;
+    height: 30px;
+    background-color: #EF3833;
+    border: 1px solid #EF3833;
+    border-radius: 20px;
+    color: white;
+    transition: 0.5s ease;
+}
+
+main button:hover{
+    background-color:brown;
+}
+
+.kafolat{
+    height:30px ;
+    display: flex;
+    justify-content: space-between;
+    width: 470px;
+}
+
+.text p:nth-child(1){
+    width: 495px;
+    height: 88px;
+    font-weight: 700;
+    color: white;
+    font-size: 80px;
+}
+.text p:nth-child(2){
+    width: 461px;
+    height: 44px;
+    font-weight: 300;
+    color: #FFFFFF;
+    font-size: 40px;
+}
+.thunder{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.thunder_text p:nth-child(1){
+    font-weight: 300;
+    color: #ffffffb2;
+}
+
+.thunder_text p:nth-child(2){
+    font-weight: 700;
+    color: #ffffff;
+}
+.thunder_text p{
+    font-size: 24px;
+
+    width: 259px;
+    height: 22px;
+}
+
+.whatwillyoulearnfromus{
+    display: flex;
+    flex-flow: column;
+    font-family: sans-serif;
+}
+
+.bezopasnost{
+    background-image: url(img/Vector.png);
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    color: white;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+}
+
+.whatwillyoulearnfromus h1{
+    color: aqua;
+}
+
+.bezopasnost img{
+    margin-left: 3px;
+}
+
+.aboute{
+    background: radial-gradient(12.83% 39.86% at 12.01% 47.74%, rgba(33, 37, 60, 0.8) 0%, rgba(21, 22, 40, 0) 100%),
+    radial-gradient(17.5% 60.52% at 96.35% 107.82%, rgba(239, 56, 51, 0.195) 0%, rgba(239, 56, 51, 0) 100%);
+    width: 100%;
+    height: 335px;
+    background-image: url(img/bg6\ 4.png);
+    background-color: #08080c;
+    padding: 100px 150px;
+    display: flex;
+    flex-flow: column;
+    color: #ffffff;
+}
+.abouteone{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.aboute p{
+    font-size: 40px;
+    font-weight: 300;
+}
+.diagramma{
+    width: 270px;
+    height: 133px;
+    background-color: white;
+    box-shadow: 0px 5px 25px -3px white;
+    margin: 12px;
+}
+
+.head{
+    background-color: #08080c;
+    height: 15%;
+    width: 100%;
+    border: 8px solid #08080c;
+    border-bottom: 2px solid white;
+}
+
+.circle{
+    width: 46px;
+    height: 46px;
+    border-radius: 100%;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 25px -3px rgba(0,0,0,0.75);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section{
+    display: flex;
+
+}
+.diagramma p{
+    font-size: 18px;
+    color: rgb(63, 66, 102, 1);
+    font-weight: 100;
+    margin: 7px;
+}
+
+.forcircle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.forsection {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.cone{
+    background-image: url(img/Vector\ \(2\).png);
+}
+
+.ctwo{
+    background-image: url(img/Vector\ \(3\).png);
+}
+
+.cthree{
+    background-image: url(img/Vector\ \(4\).png);
+}
